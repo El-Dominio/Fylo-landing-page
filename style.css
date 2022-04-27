@@ -1,0 +1,332 @@
+
+body{
+    background-color:hsl(217, 28%, 15%);
+    margin: auto;
+}
+
+nav.header {
+	margin: 50px;
+}
+
+
+/* This is css for the nav div */
+div.upperright{
+	text-align: right;
+	margin-top: 1em;
+	color: #939292;
+    float: right;
+    
+}
+.upperright a{
+    text-decoration: none;
+}
+div.logo img{
+    width: 5cm;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+	padding: 15px;
+	color: #d1d0d0;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: white;
+}
+#up-area  {
+	text-align: center;
+	margin: auto;
+    max-width: 40%;
+}
+#up-area img{
+    margin-top: 30px;
+}
+
+ .p{
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+div {
+	color: white;
+}
+button.b1 {
+    background-color: aqua;
+    color: white;
+    padding:9px 60px;
+    border-radius: 20px;
+    border: 1px solid #a2a9b1;
+    margin-top: 25px;
+}
+.get-started{
+    margin-top: 40px;
+}
+.get-started a {
+    background-color: aqua;
+    color: white;
+    padding:9px 60px;
+    border-radius: 20px;
+    border: 1px solid #a2a9b1;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.get-started a:hover {
+	color: white;
+    padding:10px 61px;
+}
+
+h1{
+   color: hsl(0, 0%, 100%);
+   font-weight: 400;
+   
+}
+p{
+    color: hsl(0, 0%, 100%);
+}
+.access-anywhere{
+    width: 350px;
+}
+.security{
+    width: 350px;
+}
+.collaboration{
+    width: 350px;
+}
+.files{
+    width: 350px;
+}
+.nav1{
+    display: flex;
+    justify-content: center;
+   justify-content: space-around;
+    text-align: center;
+    padding: 40px 30px;
+    max-width: 100%;
+    margin-top: 100px;
+}
+.nav1 .access-anywhere, .nav2 .collaboration{
+    margin-bottom: 100px;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+   text-align: center;
+    padding: 40px 30px;
+    max-width: 100%;
+}
+.nav3{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    padding: 40px 30px;
+}
+.nav3 .div1, .nav3 .div2, .nav3 .div3{
+    background-color: hsl(217, 28%, 20%);
+    padding: 25px 20px;
+    margin: 20px 10px;
+} 
+.nav4{
+    display: flex;
+    justify-content: center;
+   justify-content: space-around;
+   padding: 40px 50px;
+    max-width: 100%;
+}
+.nav4 .div1{
+    max-width: 80%;
+    display: block;
+    margin: auto;
+}
+.nav4 .div2{
+    margin-top: 150px;
+}
+.nav4 .div2 a{
+    padding-left: 0;
+    color: hsl(176, 68%, 64%);
+}
+.nav4 .div2 a:hover{
+    padding-left: 0;
+    color: #fff;
+}
+h1{
+    font-weight: bold;
+}
+a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+a:hover{
+    color: hsl(176, 68%, 64%);
+}
+
+
+.team{
+    display: flex;
+}
+.team-img{
+    padding: 27px 10px 5px 5px;
+}
+.team-info h1{
+    margin-bottom: 5px;
+}
+.team-info p{
+    margin-top: 0; 
+}
+.quote{
+    width: 150px;
+}
+
+/*This is for the outer footer*/
+div.signup {
+	color: white;
+	text-align:center;
+	background-color: hsl(218 30% 18%);
+	margin-left: 25%;
+	margin-right: 25%;
+	position: relative;
+    z-index: 1;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.p {
+	text-align: center;
+	padding-left: 10%;
+    padding-right: 10%;
+}
+input {
+	width: 60%;
+	height: 30px;
+	border-radius: 20px;
+	border: 1px solid #a2a9b1;
+    margin-bottom: 20px;
+}
+button.login {
+	background-color: aqua;
+	color: white;
+	padding:9px 10px;
+	border-radius: 20px;
+	border: 1px solid #a2a9b1;
+	margin-left: 10px;
+    font-weight: 600;
+}
+
+div.space {
+    display: block;
+    position: relative;
+    max-width: 460px;
+    width: 80%;
+    margin: -90px auto;
+}
+
+/*This is for the main footer*/
+footer.footer {
+	background-color: hsl(216deg 53% 9%);
+	color: white;
+	background-size: 100%;
+	padding: 130px 70px 50px 70px;
+}
+
+.footer-content {
+	display: flex;
+}
+
+
+ul {
+	list-style: none;
+}
+.footer-info{
+    width: 35%;
+    display: flex;
+}
+.footer-info-img img{
+    width: 30px;
+    padding-top: 20px;
+}
+.footer-info-img{
+    margin-right: 20px;
+}
+.socials ul{
+    display: flex;
+    justify-content: center;
+}
+.socials ul li{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.socials ul li a{
+    margin: 0;
+    padding: 0;
+}
+.footer ul li a{
+    text-decoration: none;
+    line-height: 1.5rem;
+}
+
+
+@media (max-width: 765px){
+    .nav1, .nav2, .nav3, .nav4, .nav5{
+        display: block;
+    }
+    div.logo img{
+        width: 3cm;
+    }
+    div.upperright{
+        margin-top: .3em;
+    }
+    #up-area  {
+        max-width: 80%;
+    }
+    nav.header {
+        margin: 20px;
+    }
+    .nav4 .div2{
+        margin-top: 20px;
+    }
+    .quote{
+        width: 30px;
+    }
+    div.signup {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 30px 20px;
+    }
+    input {
+        width: 100%;
+    }
+    button.login {
+        width: 100%;
+        margin-left: 0;
+    }
+    footer.footer {
+        padding: 130px 25px 30px 25px;
+    }
+    .footer-content {
+        display: block;
+    }
+
+    .footer-info{
+        width: 100%;
+    }
+    .socials{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .footer-contact ul, .links-1 ul, .links-2 ul{
+        padding-left: 0;
+    }
+    .links-1 ul a, .links-2 ul a{
+        padding-left: 0;
+    }
+    .footer-info-img img{
+        max-width: 18px;
+    }
+
+}
